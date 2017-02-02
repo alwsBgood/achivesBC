@@ -1,0 +1,14 @@
+@import "bourbon";
+
+@include font-face("Bebas Neue Bold", "../fonts/BebasNeueBold/BebasNeueBold", $file-formats: woff woff2);
+@include font-face("Bebas Neue Regular", "../fonts/BebasNeueRegular/BebasNeueRegular", $file-formats: woff woff2);
+
+@include font-face("FontAwesome", "../fonts/FontAwesome/FontAwesome", $file-formats: woff woff2);
+
+@include font-face("RobotoBold", "../fonts/RobotoBold/RobotoBold", $file-formats: woff woff2);
+
+@include font-face("Roboto Condensed", "../fonts/RobotoCondensedBold/RobotoCondensedBold", 700, $file-formats: woff woff2);
+@include font-face("Roboto Condensed", "../fonts/RobotoCondensedLight/RobotoCondensedLight", 300, $file-formats: woff woff2);
+@include font-face("Roboto Condensed", "../fonts/RobotoCondensedRegular/RobotoCondensedRegular", 400, $file-formats: woff woff2);
+
+@include font-face("RobotoRegular", "../fonts/RobotoRegular/RobotoRegular", $file-formats: woff woff2);
